@@ -1,5 +1,6 @@
-a=[10,20,30]
-print()
-print(all(x>10) for x in a))
-print(all(x>30) for x in b))
-print()
+a=[10,20,50,60]
+cn=40
+for x in a:
+    if x<cn:
+     continue
+print(x)
