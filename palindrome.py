@@ -1,12 +1,12 @@
-def reverse(str):
-    return str[::-1]
-def ispalindrome:
-    rev=reverse(str)
-if(s==rev):
-    return true
-return false
-s="malayalam"
-ans=ispalindrome(str)
+def reverse(a):
+    return a[::-1]
+def ispalindrome(a):
+    rev=reverse(a)
+    if(a==rev):
+     return true
+    return false
+a="malayalam"
+ans=ispalindrome(a)
 if ans==1:
     print("palindrome")
 else:
