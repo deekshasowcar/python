@@ -1,5 +1,5 @@
-a=input("enter the vowel")
+a=input("enter the vowel:")
 if str in('a','e','i','o','u' and'A','E','I','O','U'):
-Print("e is a vowel")
+ Print("e is a vowel")
 else:
-print("E is a consonent")
+ print("E is a consonent")
